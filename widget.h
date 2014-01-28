@@ -7,6 +7,8 @@
 #include <QtCore>
 #include <QMessageBox>
 #include <qextserialport.h>
+#include <qextserialport_p.h>
+#include <qextserialport_global.h>
 #include <QTimer>
 #include <windows.h>
 

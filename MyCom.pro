@@ -19,6 +19,7 @@ SOURCES += main.cpp\
 
 HEADERS  += widget.h \
     qextserialport_global.h \
-    qextserialport.h
+    qextserialport.h \
+    qextserialport_p.h
 
 FORMS    += widget.ui
