@@ -7,10 +7,10 @@
 #include <QtCore>
 #include <QMessageBox>
 #include <qextserialport.h>
-//#include <qextserialport_p.h>
-//#include <qextserialport_global.h>
 #include <QTimer>
 #include <windows.h>
+//#include <qextserialport_p.h>
+//#include <qextserialport_global.h>
 
 //串口读写延时
 #define TIME_OUT 10
