@@ -1,4 +1,5 @@
 欢迎使用Spacelan's 串口调试助手！
+===
 
 Spacelan's 串口调试助手是Spacelan写的第一个也是目前唯一一个有那么一丢丢实用价值的QT程序
 
