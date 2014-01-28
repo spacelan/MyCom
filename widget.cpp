@@ -17,9 +17,15 @@ Widget::Widget(QWidget *parent) :
     QString date = QLocale(QLocale::C).toDate(QString(__DATE__).replace("  "," "),"MMM d yyyy").toString("yyyy-MM-dd");
     QString time = QString(__TIME__).left(5);
     setWindowTitle(tr("Spacelan's 串口调试助手   ")+date+" "+time);
+
+    ui->recieveTextBrowser->moveCursor(QTextCursor::End);
     ui->recieveTextBrowser->setText(tr("欢迎使用Spacelan's 串口调试助手！\n\nSpacelan's 串口调试助手是Spacelan写的第一个也是目前唯一一个有那么一丢丢实用价值的QT程序\n\nSpacelan's 串口调试助手是某个项目的基础程序\n\nSpacelan's 串口调试助手的代码参考了开源程序QCom"));
     ui->recieveTextBrowser->moveCursor(QTextCursor::End);
     ui->recieveTextBrowser->insertHtml(tr("<a href=\"http://www.qter.org/?page_id=203\">参考链接</a><br><br>"));
+    ui->recieveTextBrowser->moveCursor(QTextCursor::End);
+    ui->recieveTextBrowser->insertPlainText("GitHub ");
+    ui->recieveTextBrowser->moveCursor(QTextCursor::End);
+    ui->recieveTextBrowser->insertHtml("<a href=\"https://github.com/spacelan/MyCom.git\">https://github.com/spacelan/MyCom.git</a><br><br>");
     ui->recieveTextBrowser->moveCursor(QTextCursor::End);
     ui->recieveTextBrowser->insertPlainText("Copyright (c) 2014 spacelan1993@gmail.com All rights reserved.");
     ui->recieveTextBrowser->moveCursor(QTextCursor::End);

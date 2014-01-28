@@ -50,6 +50,21 @@
          <string>COM5</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>COM6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>COM7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>COM8</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item>
@@ -185,7 +200,7 @@
        <item>
         <widget class="QPushButton" name="clearbtn">
          <property name="text">
-          <string>清空</string>
+          <string>清空接收栏</string>
          </property>
         </widget>
        </item>
