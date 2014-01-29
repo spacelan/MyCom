@@ -7,4 +7,3 @@ Spacelan's 串口调试助手是某个项目的基础程序
 
 Spacelan's 串口调试助手的代码参考了开源程序QCom www.qter.org/?page_id=203
 
-Copyright (c) 2014 spacelan1993@gmail.com All rights reserved.
